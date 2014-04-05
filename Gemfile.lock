@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/amfeng/phabricator-ruby.git
+  revision: 9ea8cabf75a12e9b9dd79033fbec53c3c506c022
+  specs:
+    phabricator (0.0.5)
+      rest-client
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -23,8 +30,6 @@ GEM
     mime-types (2.2)
     minitest (4.7.5)
     multi_json (1.9.2)
-    phabricator (0.0.4)
-      rest-client
     rails-observers (0.1.2)
       activemodel (~> 4.0)
     rest-client (1.6.7)
@@ -39,4 +44,4 @@ PLATFORMS
 DEPENDENCIES
   asana
   colorize
-  phabricator
+  phabricator!
