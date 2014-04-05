@@ -41,7 +41,6 @@ class AsanaToPhabricator
         next
       end
 
-
       print "Migrate? [Yn] ".yellow
       if $stdin.gets.chomp.downcase == 'y'
         print "Priority? [hlw] "
