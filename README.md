@@ -1,5 +1,7 @@
 # task-migrator
 
+![screen shot 2014-04-04 at 10 54 04 pm](https://cloud.githubusercontent.com/assets/286015/2622027/ddb08ed8-bc86-11e3-81c3-43e995ca1efc.png)
+
 ## Setup
 
 Set environment variables for `ASANA_API_KEY` and `PHAB_HOST`.
