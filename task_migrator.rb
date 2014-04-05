@@ -2,7 +2,7 @@ require 'asana'
 require 'phabricator'
 require 'colorize'
 
-class AsanaToPhabricator
+class TaskMigrator
   PRIORITY_SHORTCUTS = {
     'h' => 'high',
     'l' => 'low',
@@ -68,5 +68,5 @@ class AsanaToPhabricator
   end
 end
 
-migrator = AsanaToPhabricator.new
+migrator = TaskMigrator.new
 migrator.run!
